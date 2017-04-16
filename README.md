@@ -23,3 +23,5 @@ for(k in c(10, 20, 50, 250)){
 	points(p, w[p], col = 'red', pch = 19)
 }
 ```
+
+![GitHub Logo](/findpeaks_pic.pdf)
