@@ -5,7 +5,7 @@ A repo for a function I posted as part of my answer to a [quesiton about peak de
 The function takes an ordered sequence (vector) of values `x` and a number `m` and returns a vector of indices of local peaks in `x`. A (local) peak is defined as a point such that `m` points either side of it has a lower or equal value to it, i.e. an element $x_k \in x$ such that:
 $$x_k \geq x_i \quad \forall i\in \{k - m,\dots, k - 1, k + 1, \dots, k + m\}$$
 
- Thus, `m`  can be used adjust the sensitivity of the peak detection procedure: larger `m` will result in fewer peaks, whilst smaller values of `m` will result in more. 
+ Thus, `m`  can be used adjust the sensitivity of the peak detection procedure: larger `m` will result in fewer peaks, whilst smaller values of `m` will result in more peaks found. 
 
 ```r
 w <- abs(rnorm(1000))
