@@ -24,4 +24,4 @@ for(k in c(10, 20, 50, 250)){
 }
 ```
 
-![GitHub Logo](https://github.com/stas-g/findPeaks/blob/master/findpeaks-pic.png)
+![GitHub Logo](findPeaks/findpeaks-pics.png)
