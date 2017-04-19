@@ -4,7 +4,7 @@ A repo for a function I posted as part of my answer to a [quesiton about peak de
 
 The function takes an ordered sequence (vector) of values `x` and a number `m` and returns a vector of indices of local peaks in `x`. A (local) peak is defined as a point such that `m` points either side of it has a lower or equal value to it, i.e. an element ![](http://www.sciweavers.org/download/Tex2Img_1492645732.jpg) such that: 
 
-![](http://www.sciweavers.org/download/Tex2Img_1492645954.jpg)
+![](http://www.sciweavers.org/download/Tex2Img_1492646181.jpg)
 
  Thus, `m`  can be used adjust the sensitivity of the peak detection procedure: larger `m` will result in fewer peaks, whilst smaller values of `m` will result in more peaks found. 
 
