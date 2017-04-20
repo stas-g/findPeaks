@@ -9,8 +9,8 @@ The function takes an ordered sequence (vector) of values `x` and a number `m` a
  Thus, `m`  can be used adjust the sensitivity of the peak detection procedure: larger `m` will result in fewer peaks, whilst smaller values of `m` will result in more peaks found. 
 
 ```r
-w <- abs(rnorm(1000))
 set.seed(100)
+w <- abs(rnorm(1000))
 w[sample(1 : 1000, 25)] <- rpois(25, 5)
 w[sample(1 : 1000, 25)] <- rpois(25, 10)
 plot(w, type = 'l')
