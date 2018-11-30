@@ -22,5 +22,5 @@ for(k in c(10, 20, 50, 250)){
 }
 ```
 
-![GitHub Logo](https://raw.githubusercontent.com/stas-g/findPeaks/master/find_peaks.pdf)
-![GitHub Logo](https://raw.githubusercontent.com/stas-g/findPeaks/master/find_peaks_valleys.pdf)
+![GitHub Logo](https://raw.githubusercontent.com/stas-g/findPeaks/master/findpeaks.png)
+![GitHub Logo](https://raw.githubusercontent.com/stas-g/findPeaks/master/findpeaks_valleys.png)
