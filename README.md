@@ -4,7 +4,7 @@ A repo for a function I posted as part of my answer to a [quesiton about peak de
 
 The function takes an ordered sequence (vector) of values `x` and a number `m` and returns a vector of indices of local peaks in `x`. A (local) peak is defined as a point such that `m` points either side of it has a lower or equal value to it. Thus, `m`  can be used adjust the sensitivity of the peak detection procedure: larger `m` will result in fewer peaks, whilst smaller values of `m` will result in more peaks found. 
 
-##Example
+## Example
 ```r
 set.seed(321)
 w <- abs(rnorm(1000))
@@ -21,7 +21,7 @@ for(k in c(10, 20, 50, 250)){
 
 ![GitHub Logo](https://raw.githubusercontent.com/stas-g/findPeaks/master/findpeaks.png)
 
-##Finding valleys (local minima)
+## Finding valleys (local minima)
 
 To fnd local minima of a sequence `x` apply the functions to `-x` (as the peaks of the negative of the sequence are precisely valleys of the original sequence).
 
